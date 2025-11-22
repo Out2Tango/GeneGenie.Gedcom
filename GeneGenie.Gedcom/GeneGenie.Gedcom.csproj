@@ -2,6 +2,8 @@
 
     <PropertyGroup>
 		<TargetFramework>net9.0</TargetFramework>
+		<!-- Suppress file header warnings for this external repository -->
+		<NoWarn>$(NoWarn);IDE0073</NoWarn>
     </PropertyGroup>
 
 	<PropertyGroup>
